@@ -11,14 +11,14 @@
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/peridot/",
   "builds": [
     {
-      "version": "3.8",
+      "version": "3.9",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "19-04-2026",
-      "securityPatch": "March 2026",
+      "date": "28-04-2026",
+      "securityPatch": "April 2026",
       "fileSize": "3.34 GB",
-      "md5": "e36ec22f9400f57da8b5d40f5689fae9",
-      "downloadUrl": "https://get.thecloverproject.com/folder/peridot/3.x/3.8"
+      "md5": "aab5d6a9c1b263200c13bb4ffa0260a5",
+      "downloadUrl": "https://get.thecloverproject.com/folder/peridot/3.x/3.9"
     }
   ],
   "installationGuide": {
@@ -59,6 +59,15 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
+    {
+      "version": "3.9",
+      "date": "28-04-2026",
+      "log": [
+        "Add support for Charging modes: Slow, Fast, Turbo.",
+        "Tune Ulquiorra Performance mode.",
+        "Fix BLE for device connectivity.(credits - @grewal)"
+      ]
+    },
     {
       "version": "3.8",
       "date": "19-04-2026",
