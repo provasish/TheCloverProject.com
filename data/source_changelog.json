@@ -1,9 +1,20 @@
 [
   {
+    "version": "3.11",
+    "date": "08-06-2026",
+    "log": [
+      "Android 16 QPR2 June Update (v3.11)",
+      "Fully Rebased Source",
+      "Introduced Vanilla Build Support",
+      "Added TrickyStore Spoofing",
+      "Numerous Performance, Stability, and Source Optimizations"
+    ]
+  },
+  {
     "version": "3.10",
     "date": "14-05-2026",
     "log": [
-      "Android 16 QPR3 May Update (v3.10)",
+      "Android 16 QPR2 May Update (v3.10)",
       "Redesign About phone UI",
       "Implement Per-app GPU Screen Composition",
       "Improved Lockscreen clock animations",
