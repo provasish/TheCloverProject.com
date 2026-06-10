@@ -11,14 +11,14 @@
   "olderBuildsUrl": "https://get.thecloverproject.com/folder/cancunf/",
   "builds": [
     {
-      "version": "3.9",
+      "version": "3.11",
       "androidVersion": "16",
       "status": "Stable",
-      "date": "22-04-2026",
-      "securityPatch": "Apr 2026",
-      "fileSize": "2.7 GB",
-      "md5": "0aab46f7d87ed21365f3653648c70692",
-      "downloadUrl": "https://get.thecloverproject.com/folder/cancunf/3.x/3.9"
+      "date": "10-06-2026",
+      "securityPatch": "June 2026",
+      "fileSize": "2.48 GB",
+      "md5": "a8ab33a4d44889057cf7058ad15928fb",
+      "downloadUrl": "https://get.thecloverproject.com/folder/cancunf/3.x/3.11"
     }
   ],
   "installationGuide": {
@@ -51,7 +51,30 @@
     "warning": "Incorrect installation may brick your device. We are not responsible for any damage to your device. Proceed at your own risk."
   },
   "deviceChangelog": [
-  {
+    {
+      "version": "3.11",
+      "date": "10-06-2026",
+      "log": [
+        "Drop remnants of FPC1020.",
+        "Drop remnants of egisfp.",
+        "Rewrite fingerprint init script.",
+        "Drop fingerprint ident binaries.",
+        "Rewrite insmod script.",
+        "Update blobs and firmware to V1TDS35H.83-20-5-11.",
+        "Cleanup MTK connectivity modules load init triggers.",
+        "Set ro.vendor.soc.* from init instead of props.",
+        "Cleanup duplicate sensor permissions.",
+        "Remove unused touchrec folder.",
+        "Remove Moto Modem RFS logs script.",
+        "Drop Moto wireless accessories permissions.",
+        "Drop Moto shutdown logging script.",
+        "Drop Moto kpgather/kpreadwrite binaries.",
+        "Drop Moto pstore_annotate script.",
+        "Drop Moto bootperf.rc.",
+        "Kernel state at r3b3."
+      ]
+    },
+    {
       "version": "3.9",
       "date": "22-04-2026",
       "log": [
